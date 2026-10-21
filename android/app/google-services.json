@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880183617539",
+    "project_id": "attendanceapp-475909",
+    "storage_bucket": "attendanceapp-475909.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880183617539:android:8200211ce6b744f0ad8636",
+        "android_client_info": {
+          "package_name": "com.boulhrouzi.attendance_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880183617539-6rbt1nsfr46nu0va7185b663rn12d64q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boulhrouzi.attendance_app",
+            "certificate_hash": "6c27471fbab4a29caf8d492c926281fb04d3c81e"
+          }
+        },
+        {
+          "client_id": "880183617539-pmubgqjt0n3naevsjr5k4h1tdgj3ob04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boulhrouzi.attendance_app",
+            "certificate_hash": "e6cdc7d0b75676f943eb3500a763a910057cf049"
+          }
+        },
+        {
+          "client_id": "880183617539-2rvh8cf74a6dartmr9cbrj36t1leon37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcaR-Rj4WGsYqmYHWDVr7qdKQblubH33E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880183617539-2rvh8cf74a6dartmr9cbrj36t1leon37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
