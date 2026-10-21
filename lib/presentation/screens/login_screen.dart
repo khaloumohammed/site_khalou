@@ -61,6 +61,8 @@ class _LoginScreenState extends State<LoginScreen> {
         error: error,
         stackTrace: stackTrace,
       );
+      debugPrint('GOOGLE SIGN-IN ERROR: $error');
+      debugPrintStack(stackTrace: stackTrace);
       if (!mounted) return;
 
       setState(() => _isLoading = false);
