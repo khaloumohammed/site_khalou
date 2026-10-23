@@ -1,5 +1,6 @@
 import 'dart:developer' as developer;
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:http/http.dart' as http;
 
@@ -15,9 +16,9 @@ const String googleServerClientId =
 
 class AuthService {
   final GoogleSignIn _googleSignIn = GoogleSignIn(
-    scopes: scopes,
-    serverClientId: googleServerClientId,
-  );
+  scopes: scopes,
+  serverClientId: kIsWeb ? null : googleServerClientId,
+);
 
   /// Vérifie si l'utilisateur est actuellement connecté.
   Future<bool> get isAuthenticated async {
