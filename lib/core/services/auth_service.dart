@@ -86,6 +86,10 @@ class AuthService {
           return null;
         },
       );
+      developer.log(
+        'Diagnostic Google : compte obtenu = ${account != null}',
+        name: 'AuthService',
+      );
 
       if (account == null) {
         developer.log(
